@@ -39,7 +39,7 @@ const App = () => {
     console.log("App Js ");
     console.log(newItemData);
     setmData((prevData) => {
-        return [newItemData,...prevData];
+        return [newItemData,...0];
     });
 
     console.log(newItemData);
